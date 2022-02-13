@@ -1,0 +1,33 @@
+.text-covid {
+     text-align: center;
+     font-size: 58px;
+ 
+}
+
+.color-box1 {
+    background-color: #4896ad;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.945); 
+    font-size: 28px;
+}
+
+.color-box2 {
+    background-color: #42c985;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-size: 28px;
+}
+
+.color-box3 {
+    background-color: #03aae2;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-size: 28px;
+}
+
+.color-box4 {
+    background-color: #fa535c;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-size: 28px;
+}
