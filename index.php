@@ -20,7 +20,7 @@
     ?>
     <nav class="navbar navbar-expand-sm navbar navbar-light" style="background-color: #E1EBF8;">
         <div class="container-fluid">
-            <a class="navbar-brand ms-5" href="javascript:void(0)">Home</a>
+            <a class="navbar-brand ms-5" href="index.php">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -124,7 +124,7 @@
         </div>
     </nav>
     <div>
-        <h1 class="text-covid">CORONAVIRUS IN THAILAND</h1>
+        <p class="text-covid">รายงานผู้ติดเชื้อ Covid-19 ในประเทศไทย</p>
     </div>
     <section class="section">
         <div class="columns is-multiline .is-variable is-2">
