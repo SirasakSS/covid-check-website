@@ -36,10 +36,11 @@
                         <a class="nav-link" href="javascript:void(0)">Link</a>
                     </li> -->
                 </ul>
-                <form class="d-flex" method="POST" action="province.php">
+                <form class="d-flex " method="POST" action="province.php" novalidate>
                     <!-- <input class="form-control me-2" type="text" placeholder="Province" name="province_con"> -->
-                    <select class="form-select form-select-lg " aria-label=".form-select-lg example" name="province_con" >
-                        <option selected> กรุณาเลือกจังหวัด </option>
+                    <select class="form-select form-select-lg " aria-label=".form-select-lg example"
+                        name="province_con">
+                        <option selected disabled > กรุณาเลือกจังหวัด </option>
                         <option value="0">กระบี่</option>
                         <option value="1">กรุงเทพมหานคร</option>
                         <option value="2">กาญจนบุรี</option>
@@ -161,6 +162,16 @@
         <div align="right">
             <h5> อัปเดตข้อมูลล่าสุด :<?php echo ($data["UpdateDate"]);?> </h5>
             <h5> ที่มา :<?php echo ($data["DevBy"]);?></h5>
+            <h5>
+                <br>
+                จำนวนผู้เยี่ยมชม : <div id="sfcb8p231n2pyb5sdlxn59t99a1n4jpndtd"></div>
+                <script type="text/javascript" src="https://counter2.stat.ovh/private/counter.js?c=b8p231n2pyb5sdlxn59t99a1n4jpndtd&down=async" async></script>
+                <noscript>
+                    <a href="https://www.freecounterstat.com" title="page counter">
+                        <img src="https://counter2.stat.ovh/private/freecounterstat.php?c=b8p231n2pyb5sdlxn59t99a1n4jpndtd" border="0" title="page counter" alt="page counter">
+                    </a>
+                </noscript>
+            </h5>
         </div>
     </section>
 
